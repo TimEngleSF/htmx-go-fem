@@ -12,7 +12,9 @@
     ></script>
   </head>
   <body>
-    {{ template "form" . }} {{ template "display" . }}
+    {{ template "form" . }}
+    <hr />
+    {{ template "display" . }}
   </body>
 </html>
 {{ end }} {{ block "form" .}}
